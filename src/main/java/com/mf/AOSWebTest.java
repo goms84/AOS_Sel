@@ -18,20 +18,20 @@ import org.openqa.selenium.remote.CommandInfo;
 
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.HttpHost;
-
+//goms
 public class AOSWebTest {
     private static RemoteWebDriver driver;
     private static DesiredCapabilities capabilities;
-    private final String AOSuserName = "Logan";           // YOUR AOS USER NAME
-    private final String AOSpassword = "Demo4u";           // YOUR AOS PASSWORD (CLEAR TEXT)
+    private final String AOSuserName = "goms123";           // YOUR AOS USER NAME
+    private final String AOSpassword = "Goms123";           // YOUR AOS PASSWORD (CLEAR TEXT)
     private static final String SUTAddress = "http://nimbusserver.aos.com:8000/#/";
 
     @BeforeClass
     public static void openBrowser() throws MalformedURLException {
 
         boolean hasProxy = false;
-        String clientID = "t511780658_oauth2-0bciq8sIsktFS2kpffxL@hpe.com";            // YOUR SRF CLIENT ID
-        String clientSecret = "KS4cO183jRtCGLgCT8WC";        // YOUR SRF CLIENT SECRET
+        String clientID = "t511780658_oauth2-QOfB88XmV4v7cBff9eSi@hpe.com";            // YOUR SRF CLIENT ID
+        String clientSecret = "rSpaL3k746pqiPSGNvNt";        // YOUR SRF CLIENT SECRET
         String SeleniumURL = "http://ftaas.saas.hpe.com/wd/hub";
         String testName = "Selenium/Java-AOS-remote-exec";
         String tunnelName;
